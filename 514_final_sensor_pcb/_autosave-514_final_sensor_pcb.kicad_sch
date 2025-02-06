@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2bff3947-25dd-486f-8ba6-7f1dc9ef5bdd")
 	(paper "A4")
+	(title_block
+		(title "Laura_Sensor_Board v1.0")
+		(date "2025-02-05")
+	)
 	(lib_symbols
 		(symbol "CDS:PDV-P8103"
 			(pin_names
@@ -1517,32 +1521,32 @@
 		)
 	)
 	(junction
-		(at 148.59 73.66)
+		(at 201.93 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d3b0d0-9d56-451e-84b8-1fefa3eeed6a")
 	)
 	(junction
-		(at 148.59 69.85)
+		(at 201.93 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6535a692-2aa9-4757-a1c3-5ec18eec7394")
 	)
 	(junction
-		(at 128.27 77.47)
+		(at 181.61 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e17c1c3-7d3d-479d-b44b-6e64cb7562ed")
 	)
 	(junction
-		(at 113.03 69.85)
+		(at 166.37 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db06e1c2-3e10-4ee6-a618-6b55c8c7c106")
 	)
 	(wire
 		(pts
-			(xy 123.19 62.23) (xy 113.03 62.23)
+			(xy 176.53 102.87) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1552,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 130.81 69.85)
+			(xy 166.37 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 128.27 109.22)
+			(xy 181.61 118.11) (xy 181.61 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 69.85) (xy 59.69 69.85)
+			(xy 99.06 110.49) (xy 113.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 148.59 77.47)
+			(xy 191.77 118.11) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 114.3 77.47)
+			(xy 162.56 118.11) (xy 167.64 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 148.59 73.66)
+			(xy 162.56 114.3) (xy 201.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1612,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 148.59 59.69)
+			(xy 201.93 110.49) (xy 201.93 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 130.81 77.47)
+			(xy 181.61 118.11) (xy 184.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 73.66) (xy 148.59 77.47)
+			(xy 201.93 114.3) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 109.22) (xy 45.72 69.85)
+			(xy 99.06 149.86) (xy 99.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 148.59 69.85)
+			(xy 191.77 110.49) (xy 201.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 148.59 73.66)
+			(xy 201.93 110.49) (xy 201.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 45.72 109.22)
+			(xy 181.61 149.86) (xy 99.06 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 62.23) (xy 113.03 69.85)
+			(xy 166.37 102.87) (xy 166.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 138.43 59.69)
+			(xy 186.69 100.33) (xy 191.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 128.27 77.47)
+			(xy 177.8 118.11) (xy 181.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 69.85) (xy 113.03 69.85)
+			(xy 162.56 110.49) (xy 166.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1722,7 +1726,7 @@
 	)
 	(symbol
 		(lib_id "MOUDLE-SEEEDUINO-XIAO-ESP32C3:MOUDLE-SEEEDUINO-XIAO-ESP32C3")
-		(at 85.09 81.28 0)
+		(at 138.43 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1731,7 +1735,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e9ba980-755e-4e87-9f08-555f6d1f992b")
 		(property "Reference" "U1"
-			(at 84.455 62.23 0)
+			(at 137.795 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1743,7 @@
 			)
 		)
 		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
-			(at 84.455 64.77 0)
+			(at 137.795 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1751,7 @@
 			)
 		)
 		(property "Footprint" "ESP32c3:XIAO_ESP32_SENSE"
-			(at 85.09 81.28 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 81.28 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1770,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 81.28 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1831,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 77.47 90)
+		(at 187.96 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1835,15 +1839,15 @@
 		(dnp no)
 		(uuid "6748ac96-ccf4-46e8-8057-c2e4639b1f35")
 		(property "Reference" "R1"
-			(at 134.874 82.296 90)
+			(at 188.214 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 134.366 80.01 90)
+		(property "Value" "TBD"
+			(at 187.706 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.62 79.248 90)
+			(at 187.96 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 77.47 0)
+			(at 187.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1873,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 77.47 0)
+			(at 187.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1898,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 69.85 90)
+		(at 187.96 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1903,15 +1907,15 @@
 		(fields_autoplaced yes)
 		(uuid "7452e087-ccdf-480c-a465-95e497d18f64")
 		(property "Reference" "C1"
-			(at 134.62 62.23 90)
+			(at 187.96 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 134.62 64.77 90)
+		(property "Value" "0.1uF"
+			(at 187.96 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1923,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 138.43 68.8848 0)
+			(at 191.77 109.5248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,7 +1932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 69.85 0)
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1941,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 134.62 69.85 0)
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1966,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 128.27 59.69 180)
+		(at 181.61 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1971,7 +1975,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5c87867-2d79-4b0f-9b12-1eea1670b498")
 		(property "Reference" "SW1"
-			(at 128.27 50.8 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1983,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 128.27 53.34 0)
+			(at 181.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1991,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 128.27 59.69 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 52.07 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2009,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 128.27 59.69 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2037,7 @@
 	)
 	(symbol
 		(lib_id "CDS:PDV-P8103")
-		(at 119.38 77.47 0)
+		(at 172.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2041,15 +2045,15 @@
 		(dnp no)
 		(uuid "e390cb4d-331f-4aa9-b83c-fe69d1f324e9")
 		(property "Reference" "R2"
-			(at 119.38 82.042 0)
+			(at 172.72 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PDV-P8103"
-			(at 120.142 80.01 0)
+		(property "Value" "TBT"
+			(at 173.482 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2061,7 @@
 			)
 		)
 		(property "Footprint" "CDS:PHODET_PDV-P8103"
-			(at 119.38 77.47 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 77.47 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 77.47 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2089,7 @@
 			)
 		)
 		(property "PARTREV" "3/30/06"
-			(at 119.38 77.47 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2099,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Luna Optoelectronics"
-			(at 119.38 77.47 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2109,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 119.38 77.47 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2135,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 143.51 59.69 90)
+		(at 196.85 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2140,7 +2144,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce8d0a8-f497-4621-8e06-c7487d9d4c85")
 		(property "Reference" "BT1"
-			(at 142.9385 52.07 90)
+			(at 196.2785 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2152,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 142.9385 54.61 90)
+			(at 196.2785 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2160,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 141.986 59.69 90)
+			(at 195.326 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 141.986 59.69 90)
+			(at 195.326 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2178,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 143.51 59.69 0)
+			(at 196.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

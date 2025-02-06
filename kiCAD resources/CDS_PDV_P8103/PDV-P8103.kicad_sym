@@ -1,0 +1,86 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PDV-P8103" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at -5.07698 3.81122 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "PDV-P8103" (id 1) (at -5.07695 -3.81906 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "PDV-P8103:PHODET_PDV-P8103" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "3/30/06" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Luna Optoelectronics" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7251" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "PDV-P8103_0_0"
+      (polyline
+        (pts (xy -2.413 3.048) (xy -1.016 1.651)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.27 3.175) (xy 0.127 1.778)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 1.905 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.143 1.016) (xy 0.381 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.381 -1.016) (xy -0.381 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.381 1.016) (xy -1.143 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.143 -1.016) (xy -1.905 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -1.905 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 -1.016) (xy 1.143 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 0.127 1.778)
+          (xy -0.254 2.667)
+          (xy -0.762 2.159)
+          (xy 0.127 1.778)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.016 1.651)
+          (xy -1.397 2.54)
+          (xy -1.905 2.032)
+          (xy -1.016 1.651)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
